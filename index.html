@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshil Handoo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <canvas id="particles-bg" class="particles-background"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Harshil Handoo</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Harshil Handoo</h1>
+                    <h2 class="hero-tagline">
+                        <span class="gradient-text">Innovating</span> at the intersection of
+                        <span class="gradient-text">AI & Mathematics</span>
+                    </h2>
+                    <p class="hero-subtitle">
+                        Software Engineer from IIIT-Delhi specializing in Computer Science and Applied Mathematics, 
+                        with expertise in deep learning, data science, and cutting-edge AI research.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="resume.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:harshilhandoo321@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/harshil-handoo-72b308215/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/harshi2812" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-img-container">
+    <img src="myphoto11.png" alt="Harshil Handoo" class="hero-img">
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate technologist specializing in Computer Science and Applied Mathematics from IIIT-Delhi. 
+                        My journey spans from deep learning research in medical imaging to developing production-ready AI solutions.
+                    </p>
+                    <p class="about-description">
+                        Currently working as a Deep Learning Researcher at IIITD & AIIMS-Delhi, I focus on multi-modal frameworks 
+                        for CNS tumor classification, achieving significant improvements in diagnostic accuracy. My work combines 
+                        theoretical knowledge with practical implementation to solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Deep Learning Researcher</h3>
+                            <h4>IIITD & AIIMS-Delhi</h4>
+                            <span class="card-date">March 2025 - Present</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="achievement-list">
+                            <li>Developed multi-modal CNS tumor classification framework integrating custom Vision Transformers (ViT) and BioBERT, achieving <strong>35% improvement</strong> in diagnostic accuracy</li>
+                            <li>Implemented CLIP-style contrastive learning to align histopathological images with clinical metadata, enhancing tumor subtype separation by <strong>30%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>Data Science Intern</h3>
+                            <h4>Nexus Info</h4>
+                            <span class="card-date">July 2024 - August 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul class="achievement-list">
+                            <li>Analyzed datasets with <strong>50,000+ entries</strong> using Python and SQL, reducing query processing time by <strong>20%</strong></li>
+                            <li>Designed and optimized <strong>7+ machine learning models</strong> achieving 30% performance boost with precision and recall rates above <strong>95%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Technology</h3>
+                            <span class="timeline-date">2022 - 2026</span>
+                        </div>
+                        <h4>IIIT-Delhi</h4>
+                        <p>Computer Science and Applied Mathematics</p>
+                        <div class="coursework">
+                            <h5>Relevant Coursework:</h5>
+                            <div class="course-tags">
+                                <span class="course-tag">Machine Learning</span>
+                                <span class="course-tag">Statistics</span>
+                                <span class="course-tag">Data Structures</span>
+                                <span class="course-tag">Operating Systems</span>
+                                <span class="course-tag">Algorithms</span>
+                                <span class="course-tag">DBMS</span>
+                                <span class="course-tag">OOPs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Class XII - PCM + Computer Science</h3>
+                            <span class="timeline-date">2020 - 2022</span>
+                        </div>
+                        <h4>Rosary Senior Secondary School, Delhi</h4>
+                        <p>CBSE Board</p>
+                        <div class="grade">
+                            <span class="grade-label">Percentage:</span>
+                            <span class="grade-value">90.6%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Retinopathy Classification</h3>
+                            <span class="project-date">Nov 2024 - Feb 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Advanced diabetic retinopathy detection using multiple transformer models including Xception, VGG16, and ResNet101.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">94%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">0.92</span>
+                                <span class="metric-label">F1-Score</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">0.95</span>
+                                <span class="metric-label">AUC</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Indian Banks Churn Prediction</h3>
+                            <span class="project-date">Oct 2024 - Jan 2025</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            End-to-end customer churn prediction system with automated personalized email communication using LLMs.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">89%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">25K+</span>
+                                <span class="metric-label">Customers</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">6</span>
+                                <span class="metric-label">LLMs Used</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Llama 3.1b</span>
+                            <span class="tech-tag">Groq</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-traffic-light"></i>
+                        </div>
+                        <div class="project-title">
+                            <h3>Optimized Traffic Detection</h3>
+                            <span class="project-date">Aug 2024 - Dec 2024</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Deep learning-based traffic detection system with advanced data augmentation and multiple YOLO model implementations.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">30%</span>
+                                <span class="metric-label">Accuracy Boost</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">100+</span>
+                                <span class="metric-label">Models Trained</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">25%</span>
+                                <span class="metric-label">Efficiency Gain</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">YOLOv12</span>
+                            <span class="tech-tag">YOLOv8</span>
+                            <span class="tech-tag">Faster R-CNN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/harshi2812" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i>
+                    View More on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI/ML Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, innovative projects, 
+                        and collaborations in AI and machine learning. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:harshilhandoo321@gmail.com">harshilhandoo321@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/harshil-handoo-72b308215/" target="_blank">linkedin.com/in/harshilhandoo</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/harshi2812" target="_blank">github.com/harshilhandoo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+<form id="contactForm" action="https://formspree.io/f/xqalyrgp" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Harshil Handoo. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="resume.pdf" download class="footer-link">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
